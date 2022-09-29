@@ -1,3 +1,25 @@
+/*	1.Create a list of elements as shown below into the LinkedList and name it as languages.
+
+	C
+	C++
+	Java
+	Kotlin
+	Python
+	Perl
+	Ruby
+
+	Display the created list.
+
+	Remove an element at index 5 and display the list
+
+	Remove ‘Kotlin’ and display the list
+
+	Remove all the scripting languages (Python, Ruby, Perl) with one statement and display the list.
+
+	Remove all the elements from the list and display the list.
+
+
+*/
 package com.testexercise.bll;
 
 import java.util.Arrays;
