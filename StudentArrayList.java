@@ -83,7 +83,7 @@ public class StudentArrayList {
 				+"\n**************************************************************");
 		//Sort students by student name.
 		System.out.println("Sort students by Name...");  
-		Collections.sort(students,new NameComparator());
+		Collections.sort(students,new StateAndNameComparator());
 		
 		Iterator<Student> itr1 =students.iterator();
 		while(itr1.hasNext())
@@ -93,7 +93,7 @@ public class StudentArrayList {
 				+"\n**************************************************************");
 		//Sort students by student State.
 		System.out.println("Sort students by State...");  
-		Collections.sort(students,new StateComparator());
+		Collections.sort(students,new StateAndNameComparator());
 		
 		Iterator<Student> itr2 =students.iterator();
 		while(itr2.hasNext())
